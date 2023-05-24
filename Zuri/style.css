@@ -1,0 +1,307 @@
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Averta, sans-serif;
+  overflow-x: hidden;
+}
+body{
+  
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url(./images/hero-bg.svg);
+  background-position: center;
+  background-size: cover;
+  height: 860px;
+  text-align: center;
+  
+}
+#logo-image {
+  margin: 73px 0 65px 0;
+}
+#text-container h1 {
+  padding: 12px 0 39px 0;
+  color: #514949;
+  font-size: 32px;
+  font-weight: 800;
+}
+#text-container p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  color: #514949;
+  margin-bottom: 90px;
+  /* width: 670px; */
+  max-width: 670px;
+  font-weight: 500;
+}
+#text-container p span {
+  color: #e7332b;
+}
+#links {
+  display: flex;
+  justify-content: center;
+}
+#links a {
+  border: 1px solid #e7332b;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  outline: none;
+}
+#links #training {
+  margin-right: 16px;
+  background-color: #e7332b;
+  color: #fff;
+}
+#links #training:hover {
+  background-color: #fff;
+  color: #e7332b;
+  cursor: pointer;
+}
+#links #talent {
+  margin-left: 13px;
+  background-color: #fff;
+  color: #e7332b;
+}
+#links #talent:hover {
+  background-color: #e7332b;
+  color: #fff;
+  cursor: pointer;
+}
+.programs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  
+}
+#program-text-container h3 {
+  font-size: 16px;
+  color: #e7332b;
+  font-weight: 400;
+  margin-top: 140px;
+  line-height: 40px;
+}
+#program-text-container p {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 26px;
+  color: #514949;
+  line-height: 44px;
+}
+
+#programs-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-left:3em;
+  margin-right: 3em;
+}
+/* .card {
+  max-width: 50%;
+} */
+.card img {
+  margin-bottom: 50px;
+}
+.card p {
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+#training-bg {
+  z-index: -1;
+  position: absolute;
+  padding: 20px;
+  left: -170px;
+  top: 1073px;
+  margin: 30px;
+}
+#training-card {
+  background-color: #fffafa;
+  position: relative;
+  margin-left: 20px !important;
+  padding: 60px 50px 80px 40px;
+  margin: 0 20px 0;
+}
+#internship-card {
+  background-color: #fffafa;
+  padding: 60px 50px 80px 40px;
+  margin: 0 13px;
+}
+#talent-bg {
+  position: absolute;
+  z-index: -1;
+  top: 1118px;
+  right: -75px;
+}
+#talent-card {
+  background-color: #fffafa;
+  position: relative;
+  padding: 60px 50px 80px 40px;
+  margin: 0 20px;
+}
+footer {
+  padding: 100px 30px 30px 30px;
+  margin: auto;
+}
+#contact-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.contact-links h3 {
+  color: #514949;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.contact-links a {
+  font-size: 16px;
+}
+.contact-links p {
+  text-align: left;
+  width: 15rem;
+  color: #514949;
+}
+.link-position {
+  padding-top: 20px;
+}
+#email-link{
+  font-size: 14px;
+}
+#social-links {
+  display: flex;
+  justify-content: flex-start;
+}
+#social-links img {
+  padding: 0 8px 4px 0;
+}
+#empty-div {
+  border-top: 2px solid #514949;
+  opacity: 0.2;
+  margin:0 2.5em;
+}
+#copyright h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 100px;
+}
+@media (max-width:1000px) {
+  /* *{
+    overflow-x: visible;
+  } */
+
+  #programs-card {
+    display: flex;
+    flex-direction: column;
+  }
+  #training-bg {
+    display: none;
+  }
+  #talent-bg {
+   display: none;
+  }
+  #training-card {
+    margin:0 30px 40px 30px !important;
+    
+  }
+  #internship-card {
+    margin:0 30px 0 30px !important;
+    
+  }
+  #talent-card{
+    margin: 40px 30px !important;
+  }
+  #contact-info {
+    padding: 0;
+  }
+  #empty-div {
+    margin:0 0.5em;
+  }
+  footer {
+    padding: 100px 20px 30px 20px;
+  }
+}
+
+@media (max-width:770px) {
+  .main-container {
+    height: auto;
+    text-align: center;
+    
+  }
+  #logo-image {
+    margin: 120px 0 78px 0;
+  }
+  #text-container h1 {
+    font-size: 28px;
+  }
+  #links #training {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  #links #talent {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+  #contact-info {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+  }
+  .contact-links p {
+    text-align: center ;
+  }
+  .contact-links{
+    padding-top: 30px;
+  }
+  #social-links {
+    justify-content:center;
+    align-items: center;
+  }
+  #links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-links h3 {
+    color: #514949;
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+  .contact-links a {
+    font-size: 16px;
+  }
+  #footer-logo{
+    width: 150px;
+  }
+}

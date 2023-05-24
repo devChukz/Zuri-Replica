@@ -1,0 +1,1223 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    
+}
+body{
+    background: rgb(255, 253, 245);
+    font-family: graphik, sans-serif;
+}
+
+nav{
+    background: rgb(255, 253, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 49px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-size: 18px;
+    font-weight: normal;
+}
+#nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+#page-links ul{
+    display: flex;
+    justify-content: center;
+    padding-right: 55px;
+}
+#page-links ul li {
+    list-style-type: none;
+    padding: 2px 47px 0 0;
+}
+ul li a {
+    color: #5c5b5b;
+    opacity: 0.9;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight:400;
+    letter-spacing: 0.03em;
+}
+a{
+    text-decoration: none;
+}
+#Enroll-btn{
+    display: flex;
+    align-items: center;
+}
+#nav-enroll-link{
+    position: initial;
+    background: #e7332b;
+    border-radius: 71px;
+    color: #ffffff;
+    padding: 12px 32px;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    min-width: 60px;
+}
+#nav-enroll-img{
+    background: #e7332b;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: -46px;
+    margin-top: -35px;
+}
+
+
+#hero-page{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px ;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+#container{
+    position: relative;
+    margin: auto; 
+    margin-left: -50px;
+}
+
+#container p:first-child{
+    color:  #e7332b;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 18px;
+   
+}
+#container p:nth-child(2){
+    color: #1b1a20;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 110%;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    width: 100%;
+    margin: auto;
+}
+#container p:nth-child(4){
+    color: #1b1a20;
+    line-height: 130%;
+    padding-top: 20px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+#lady1-image{
+    margin-top: -24px;
+}
+#lady1-image img{
+    mix-blend-mode: darken!important;    
+}
+#male1-image img{
+    mix-blend-mode: darken!important;
+}
+#line1{
+    display: flex;
+    justify-content: right;
+}
+#line2{
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 160px;
+}
+.line3{
+    position: absolute;
+    left: 20px;
+    top:350px;
+}
+#btn{
+    text-align: center;
+    margin-top: 50px;
+}
+#btn a{
+    background: #e7332b;
+    border-radius: 71px;
+    color: #fff;
+    padding: 13px 35px;
+}
+.empty-div{
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    width:90% ;
+    margin: auto;
+}
+#about-page{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+#left-details, #centre-details, #right-details{
+    width: 33%;
+}
+#centre-details{
+ display: flex;
+ justify-content: center;
+}
+#left-details{
+    color: #1b1a20;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+}
+#centre-details img{
+ width: 60%;
+}
+#right-details{
+        color: #1b1a20;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: right;
+}
+
+#whyUs-page{
+    width: 90%;
+    margin: auto;
+    padding-top: 49px;
+
+}
+#whyUs-container{
+    display: flex;
+    flex-flow: row-wrap;
+    align-items: center;
+}
+#left{
+    width: 60%;
+}
+#left p:nth-child(2){
+    font-size: 24px;
+    color: #e7332b;
+    font-weight: 400;
+    line-height: 130%;
+}
+#left p:nth-child(3){
+    font-size: 40px;
+    color: #1b1a20;
+    font-weight: 600;
+    line-height: 130%;
+}
+#line{
+    display: flex;
+    justify-content: center;
+}
+#right #star{
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+    margin-top: 90px;
+}
+#Program-details{
+    width: 92%;
+    margin: auto;
+    padding-top: 70px;
+
+}
+.main-card{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    
+}
+.main-card .card{
+    max-width: 31%;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 93px 50px;
+    margin-left:20px ;
+    margin-bottom: 25px;
+    color: #1b1a20;
+}
+.main-card .card:hover{
+    transform: translateY(-15px);
+    transition:0.5s;
+}
+.main-card .card img{
+    width:40%;
+    display: flex;
+    margin-top:-58px;
+    margin-right: -49px;
+    float: right;
+}
+#remote{
+    background-color: #e7332b;
+    color: #fff;
+}
+.card p:nth-child(2){
+    font-size: 60px;
+    line-height: 130%;
+    font-weight: 700;
+    letter-spacing: 0.009;
+}
+.card p:nth-child(3){
+    font-size: 37px;
+    padding: 36px 0;
+    line-height: 130%;
+    font-weight: 500;
+    letter-spacing: 0.009;
+}
+.card p:nth-child(4){
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.009;
+}
+
+
+#enrol-details{
+    background-color: rgb(231, 51, 43)
+}
+.enrol-section{
+    display: flex;
+    width:90%;
+    margin:80px auto; 
+    padding-top: 40px;
+}
+#detail1{
+    max-width: 41%;
+    padding: 40px 0 0 24px;
+}
+#detail2{
+     max-width:59%;
+     padding: 40px 0 0 24px;
+}
+#enrol-wire{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+}
+#enrol-text{
+    color: #fff;
+    line-height: 130%;
+}
+#enrol-text p:nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+}
+#enrol-text p:nth-child(3){
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.00938em;
+}
+#enrol-text p:nth-child(4){
+    width: 78%;
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    
+}
+#section5-btn a{
+    background: #fff;
+    border-radius: 71px;
+    
+    width:32%;
+    
+    padding: 12px 28px;
+    color: #e7332b;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px;
+    letter-spacing: 0.02857em;
+}
+#section5-btn{
+    margin-top: 30px; 
+    margin-bottom: 40px;
+}
+
+.enrol-buttons{
+    display: flex;
+    flex-flow: row wrap;
+}
+.enrol-button{
+    margin: 0 20px 20px 0;
+}
+.enrol-buttons button{
+    border: 2px solid #fff;
+    min-width: 64px;
+    padding-top: 11px;
+    padding-bottom:11px;
+    border-radius:71px;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    letter-spacing: 0.02857em;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width:100% ;
+}
+#first-btn p{
+    padding-right: 40px;
+}
+#second-btn p{
+    padding-right: 38px;
+}
+#third-btn p{
+    padding-right: 57px;
+}
+#fourth-btn p{
+    padding-right: 15px;
+}
+.enrol-button button img{
+    margin: 0 10px;
+}
+#enrol-circle{
+    margin-top: -100px;
+}
+#enrol-circle img{
+    padding: 35px;
+}
+
+
+
+
+#stacks-page{
+    margin:80px auto; 
+    width: 95%; 
+}
+
+#stack-text p:first-child{
+    color: #e7332b;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: Graphik!important;
+}
+#stack-text p:nth-child(2){
+    color: #1b1a20;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    width:50%;
+}
+#stack-line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.stack-card{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.frontend-card, .backend-card, .design-card, .devops-card, .fullstack-card, .frameworks-card{
+    max-width: 31%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    height: auto;
+}
+.card-label{
+    display: flex;
+}
+.card-label img{
+    margin-right:10px;
+}
+.stack-card h5{
+    color: #1b1a20;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 20px;
+}
+.stack-card p{
+    line-height:130%;
+    padding-top: 30px; 
+}
+#stack-btn{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 80px 0;
+
+}
+#stack-btn a{
+    color: #fff;
+    background-color:#e7332b;
+    border: none;
+    padding: 13px 30px;
+    border-radius:70px;
+    letter-spacing: 0.09em;
+}
+#faqs{
+    width: 90%;
+    margin: auto;
+    padding-top:50px;
+}
+.faqs-line{
+    margin-left: 8rem;
+    margin-top: 10px!important;
+}
+#faqs-text{
+    text-align: center;
+    margin-top: -50px;
+}
+#faqs-text p:first-child{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color:#e7332b;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+}
+#faqs-text p:nth-child(2){
+    
+    color: #1b1a20;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 100px;
+}
+#faq-box{
+    width:90%;
+    margin: auto;
+}
+.faq-content{
+    position: relative;
+    margin:0 20px;
+    /* background-color: rgb(255, 253, 245) !important; */
+    border: 1px solid rgba(71, 44, 111, 0.43);
+    padding: 20px;
+    
+}
+.faq-content .content-header{
+    position: relative;
+    cursor: pointer;
+    padding-top: 10px;    
+}
+.content-header::before{
+    content: "+";
+    position: absolute;
+    top: -10%;
+    right: -5px;
+    transform: rotate(0deg);
+    transition:0.5s;
+    font-size:2em;
+
+}
+.faq-content.active .content-header::before{
+    transform: rotate(180deg);
+    transition:0.5s;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+    transition:0.5s;
+    height: 0;
+    padding-top: 10px;
+    font-size: 14px!important;
+    font-family:'Times New Roman', Times, serif !important;
+}
+.faq-content.active .content{
+    height:auto;
+}
+#faqs-link{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 70px 0 40px 0;
+}
+#faqs-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 71px;
+    padding: 5px 32px;
+    background-color: #e7332b;
+    
+}
+#faqs-link a p {
+    color: #fff!important;
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0!important;
+    letter-spacing: 0.009em;
+}
+#faqs-link p{
+    padding-right: 10px;
+    padding-bottom: 7px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+#Course-structure{
+    margin:70px auto; 
+    width: 85%;
+}
+
+.structure-line{
+    margin-left: 7rem;
+}
+
+#structure-star{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+}
+#enroll-page{
+    margin:80px auto; 
+    width: 90%;
+}
+#structure-text p:first-child{
+    text-align: center;
+    color: #e7332b;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.009em; 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#structure-text p:nth-child(2){
+    text-align: center;
+    color:#1b1a20;
+    font-family: Graphik!important;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.009em;
+}
+#structure-text p:nth-child(3){
+    text-align: center;
+    color:#333;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 60px;
+    line-height: 1.5;
+    letter-spacing: 0.009em;
+}
+#structure-card{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    position: relative;
+}
+#move{
+    width: 10%;
+    display: flex;
+    left:-120px;
+    position:absolute;
+    margin-top:220px;
+}
+.Course-card{
+    background-color: #1b1a20;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+    /* height: 740px; */
+    line-height: 140%;
+    
+}
+.heading{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 18px;
+}
+.Course-card p:nth-child(2){
+    padding-bottom:18px ;
+    width: 90%;
+    font-size: 16px;
+    font-weight:400;
+}
+.sub-heading{
+    color: #fff;
+    font-size: 18px!;
+    font-weight: 900;
+    line-height: 140%;
+    width: 90%;
+}
+#fulltime{
+    max-width: 48%;
+    margin-right: 20px;
+    padding: 64px 65px;
+}
+#part-time{
+    margin-left: 20px;
+    max-width: 48%;
+    padding: 64px 65px;
+}
+::marker{
+    font-weight: 800;
+}
+.time{
+    width: 40%;
+    display: flex;
+    float: right;
+    margin-right: -25px!important;
+    margin-top: -110px;
+}
+.hour{
+    width: 27%;
+    display: flex;
+    float: right;
+    margin-right: -30px!important;
+    margin-top: -120px;
+}
+
+#circle{
+    display: flex;
+    margin-bottom:25px;
+}
+#enroll-container{
+    border-radius: 24px; 
+    background-color: #e7332b;
+    position: relative;
+    text-align: center;
+    
+}
+#enroll-content{
+    line-height:4.5em;
+    color: #fff!important;
+    margin: auto;
+    width: 50%;
+}
+#enroll-box p:first-child{
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 54px; 
+    line-height:3.5em;
+    
+    
+}
+#enroll-box p:nth-child(2){
+    font-size: 55px;
+    font-weight:600;
+
+}
+#box-enroll-btn a{
+    background: #fff;
+    border-radius: 70px;
+    color: #e7332b;
+    padding: 12px 32px;
+    font-size: 18px;
+    
+
+}
+#box-enroll-btn{
+    margin-top: 20px;
+}
+#curve-round{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+#curve-left{
+    position: absolute;
+    left:-40px;
+    margin-top: -80px;
+}
+#round-right{
+    position: absolute;
+    right:0;
+    margin-top:-105px;
+    width: 110%;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+#round img{
+    
+    position: absolute;
+    left: 130px;
+    margin-top: 70px;
+
+}
+#bend img{
+    position: absolute;
+    right:0.1em;
+}
+
+footer{
+    width: 90%;
+    margin: auto;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight:400 !important;
+    color: #1b1a20;
+}
+#contact-info{
+    display: flex;
+    justify-content:space-between;
+}
+#social-links img{
+    padding-right: 8px;
+}
+#copyright-policy{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.6rem 0 2.6rem 0  ;
+}
+#policy{
+    display: flex;
+}
+#policy p:first-child{
+    padding-right: 1rem;
+}
+
+@media (max-width:1116px) {
+
+    #page-links ul li {
+        list-style-type: none;
+        padding: 2px 45px 0 0;
+    }
+    #logo img{
+        width: 217px;
+    }
+
+    #hero-page{
+        display: flex;    
+       flex-direction: column;
+       padding-top: 120px ;
+    }
+
+
+    #lady1-image{
+        width:76%;
+    }
+    #lady1-image img{
+        width:100%;
+    }
+    #male1-image img{
+        display: none;
+    }
+    #container p:first-child{
+        width:80% ;
+
+    }
+
+    #line1 img{
+        width:33%;
+    }
+    #left-details{
+        font-size: 18px;
+    }
+     #right-details{
+    font-size: 18px;
+    }
+    #left p:nth-child(2){
+        font-size: 20px;
+    }
+    #left p:nth-child(3){
+        font-size: 30px;
+    }
+    .main-card .card{
+        max-width: 47%;
+    }
+    .enrol-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #detail1{
+        max-width: 100%;
+        padding: 40px 0 0 24px;
+    }
+    #detail2{
+         max-width:100%;
+    
+    }
+    #enrol-wire{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 140px;
+    }
+    #enrol-text p:nth-child(3){
+        font-size: 30px;
+    }
+    #enrol-text p:nth-child(4){
+        width: 100%;
+    }
+    #stacks-page{
+        width: 90%; 
+    }
+    #stack-text p:first-child{
+        font-size: 20px;
+    }
+    #stack-text p:nth-child(2){
+        font-size: 30px;
+        width:100%;
+    }
+    .frontend-card, .backend-card, .design-card, .devops-card, .fullstack-card, .frameworks-card{
+        max-width: 46%;
+    }
+    #move{
+        display: none;
+        left:0;
+    }
+    
+    #Course-structure{
+        margin:70px auto; 
+        width: 90%;
+    }
+    #fulltime{
+        max-width: 47%;
+        margin-right: 20px;
+        padding: 64px 65px;
+    }
+    #part-time{
+        margin-left: 20px;
+        max-width: 47%;
+        padding: 64px 65px;
+    }
+    #structure-text p:first-child{
+        font-size: 20px;
+    }
+    
+    #structure-text p:nth-child(2){
+        font-size: 30px;
+    }
+    #bend img{
+        width: 13%;
+    }
+}
+
+@media (max-width:1000px) {
+    #page-links ul{
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+
+    #container p:nth-child(2){
+        color: #1b1a20;
+        font-size: 37px;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+
+    #lady1-image{
+        width:100%;
+    }
+    #about-page{
+       flex-flow: column;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    #left-details, #centre-details, #right-details{
+        width: 100%;
+    }
+    #centre-details img{
+        width: 30%;
+    }
+    #left-details{
+        color: #1b1a20;
+        font-size: 25px;
+        text-align: center;
+    }
+    #whyUs-container{
+       flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+
+    .frontend-card, .backend-card, .design-card, .devops-card, .fullstack-card, .frameworks-card{
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    #container p:first-child {
+        width: 100%;
+    }
+    
+    .main-card{
+        display: flex;
+        flex-flow:column;
+        width: 100%;
+    }
+    .main-card .card{
+        max-width: 100%;
+        margin-left:0 ;
+    }   
+    .stack-card p {
+        padding-bottom: 40px;
+    }
+    #fulltime{
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #part-time{
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    #round-right{
+        margin-top:-90px;
+        width: 170%;  
+    }
+    #faq-box{
+        width:100%;
+        margin: auto;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    nav{
+        background: rgb(255, 253, 245);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    #logo img{
+        width: 180px;
+    }
+    #nav-enroll-link{
+        padding: 12px 20px;
+    }
+    #nav-enroll-img{
+        padding: 10px;
+        margin-top: -30px;
+        margin-left: -44px;
+        width: 63px;
+    }
+    #container{
+        position: relative;
+        margin: auto; 
+        margin-left: 0;
+    }
+
+    #container p:nth-child(2){
+        font-size: 28px;
+        width: 100%;
+    }
+    #container p:nth-child(4){
+        width: 100%;
+        font-size: 16px;
+    }
+    #line1{
+       margin-right: 2.2rem;
+    }
+    #line2{
+        margin-right: 70px;
+    }
+    .line3{
+        display: none;
+    }
+    #left-details{
+        font-size: 20px;
+    }
+    #right-details{
+        text-align: center;
+    }
+    #centre-details img{
+        width: 50%;
+    }
+    #right #star{
+        display: none;
+    }
+    #left p:nth-child(2){
+        font-size: 18px;
+    }
+    #left p:nth-child(3){
+        font-size: 24px
+    }
+    .card p:nth-child(2){
+        font-size: 44px;
+    }
+    .card p:nth-child(3){
+        font-size: 28px;
+    }
+    .enrol-section{
+    width:100%;
+    }
+    .enrol-buttons{
+        flex-flow: row wrap;
+        
+    }
+    .enrol-buttons button{
+        font-size: 13px;
+    }
+    .enrol-button{
+        max-width:40%;
+    }
+    #first-btn p{
+        padding-right:  70px;
+    }
+    #first-btn button img{
+        width:22%;
+    }
+    #second-btn p{
+        padding-right: 68px;
+    }
+    #second-btn button img{
+        width:22%;
+    }
+    #third-btn p{
+        padding-right: 77px;
+    }
+    #third-btn button img{
+        width:22%;
+    }
+    #fourth-btn p{
+        padding-right: 60px;
+    }
+    #fourth-btn button img{
+        width:22%;
+    }
+
+    #stack-text p:first-child{
+        font-size: 18px;
+    }
+    #stack-text p:nth-child(2){
+        font-size: 23px;
+        width:100%;
+    }
+
+    #faqs-text{
+        margin-top: -10px;
+    }
+    .faqs-line{
+    margin-left: 3rem;
+    }
+    .faqs-line img{
+        width:23%;
+    }
+    #faqs-text p:first-child{
+        font-size: 18px;
+    }
+    #faqs-text p:nth-child(2){
+        font-size: 24px;
+    }
+    #faqs-link{
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    #faqs-link p{
+        font-size: 16px;
+    }
+
+    #structure-text p:first-child{
+        font-size: 18px;
+    }
+    
+    #structure-text p:nth-child(2){
+        font-size: 24px;
+    }
+    #structure-text p:nth-child(3){
+        font-size: 16px;
+    }
+
+
+    #enroll-content{
+        line-height:2.5em;
+    }
+    #enroll-box p:nth-child(2){
+        font-size: 36px;
+    }
+
+
+    #contact-info{
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .contact-links{
+       padding-bottom: 10px;
+    }
+
+    #copyright-policy{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 10px 0 40px 0;
+        text-align: center;
+    }
+    #policy{
+        flex-direction: column;
+        padding-bottom:20px;
+        line-height:4;
+    }
+
+}
+
+@media (max-width:400px) {
+    nav{
+        padding: 20px 15px;
+    }
+    #logo img{
+        width: 140px;
+    }
+    #nav-enroll-link{
+        padding: 12px 18px;
+    }
+    #nav-enroll-img{
+        padding: 9px;
+        margin-left: -41px;
+        width: 60px;
+    }
+    .enrol-section{
+        width:100%;
+        }
+        .enrol-buttons{
+            flex-flow: row wrap;
+            
+        }
+        .enrol-button{
+            max-width:38%;
+        }
+        .enrol-buttons button{
+            font-size: 11px;
+        }
+        #first-btn p{
+            padding-right: 50px;
+        }
+        #second-btn p{
+            padding-right: 48px;
+        }
+        #third-btn p{
+            padding-right: 57px;
+        }
+        #fourth-btn p{
+            padding-right: 30px;
+        }
+
+
+        #enroll-content{
+            width: 60%;
+        }
+        #enroll-box p:nth-child(2){
+            font-size: 26px;
+        
+        }
+    
+   
+
+
+}
